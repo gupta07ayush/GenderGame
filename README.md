@@ -1,6 +1,8 @@
 # GenderGame
 Program can guess the gender of given the given name based on the country id.
 
+![gender](https://user-images.githubusercontent.com/29086241/228649894-ba8f7628-5d17-4a1b-879e-d0694910068f.png)
+
 <h2>Country names and their id</h2>
 IN  	India <br>
 GB	United Kingdom <br> <br>
