@@ -41,24 +41,24 @@ brown = '#000000'
 #creating the main window
 window = Tk()
 window.geometry('425x500+350+150') #350+200 center the window
-
+window.configure(bg="#b3c6ff")
 window.title("Gender Game")
 
 #make the window unresizable
 #window.resizable(height=FALSE, width=FALSE)  
 
 #now inside the window, create two frames, the top frame and the bottom frame.
-top_frame = Frame(window, bg="#e6ecff", width=430, height=90)
+top_frame = Frame(window, bg="#b3c6ff", width=700, height=100)
 top_frame.grid(row=0, column=0)
 
-bottom_frame = Frame(window, bg="#0040ff", width=430, height=450)
+bottom_frame = Frame(window, bg="#0040ff", width=425, height=450)
 bottom_frame.grid(row=1, column=0)
 
 #inside top frame, create two labels
-first_label = Label(top_frame, text="Gender Game", bg="#e6ecff", fg="#000000", pady=25, padx=70, justify=CENTER, font=('Poppins 22 bold'))
+first_label = Label(top_frame, text="Gender Game", bg="#b3c6ff", fg="#000000", pady=25, padx=70, justify=CENTER, font=('Poppins 30 bold'))
 first_label.grid(row=0, column=0)
 
-second_label = Label(top_frame, text='Give me any name and i will predict its Gender', bg="#e6ecff", fg="#000000", font=('Poppins 13 bold'))
+second_label = Label(top_frame, text='Give me any name and i will predict its Gender', bg="#ccd9ff", fg="#000000", font=('Poppins 13 bold'))
 second_label.grid(row=1, column=0)
 
 #widgets inside the bottom_frame
